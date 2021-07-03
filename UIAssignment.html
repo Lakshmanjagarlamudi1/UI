@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AINE Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: white;
+            overflow-x: hidden;
+            padding-top: 10px;
+        }
+
+        .sidenav a {
+            padding: 6px 6px 6px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .main {
+            margin-left: 200px;
+            /* Same as the width of the sidenav */
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 5px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+
+</head>
+
+<body style="background-color: whitesmoke;">
+    <div>
+
+        <ul style="height: 70px;
+        background-color: white; margin-top: -20px;">
+        </ul>
+    </div>
+    <div class="sidenav" style="box-shadow: 5px 5px 3px grey;">
+        <a href="#"><img src="icons8-huawei-logo-96.png" style="padding: 20px; height: 50px;"></a>
+        <a href="#"><img src="icons8-account-80.png" style="padding: 20px; height: 50px;"><br>
+            <p style="font-size: smaller; margin-top: -20px; margin-left: 6px;">Students</p>
+        </a>
+        <a href="#" style="background-color: #96C2DC; border-color: black;"><img src="icons8-book-100.png"
+                style="padding: 20px; height: 50px;"><br>
+            <p style="font-size: smaller; margin-top: -20px; margin-left: 6px;color: black;">Lesson Plan</p>
+        </a>
+        <a href="#"><img src="icons8-settings-100.png" style="padding: 20px; height: 50px;"><br>
+            <p style="font-size: smaller; margin-top: -20px; margin-left: 6px;">Settings</p>
+        </a>
+    </div>
+
+    <a href="#"
+        style="background: whitesmoke; margin-left: 200px;font-size: .975rem;color: rgb(136, 193, 226);padding: .375rem .75rem;border: 1px solid transparent;font-weight: 600;text-decoration: none;"><i
+            class="fa fa-caret-left"></i>
+        Videos
+    </a>
+    <br>
+    <center>
+    <input type="text" placeholder="Insert URL here" style="height: 30px;width: 20cm; margin-top: 2cm;margin-left: 80px;border: 1px; border-radius: 10px;font-weight: 600;">
+    <br>
+    <h4>or</h4></center>
+    <button type="submit" style="margin-left: 350px; padding: 2cm;background: rgb(255, 255, 255);border: 1px;font-size: .975rem;font-weight: 600;border-radius: 2px;">Upload</button>
+</body>
+
+</html>
